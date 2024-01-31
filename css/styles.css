@@ -1,3 +1,4 @@
+
 body {
     color: #434455;
     font-weight: 400;
@@ -6,11 +7,34 @@ body {
     
 }
 
-a {
-    text-decoration: none;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-ul {list-style-type: none;}
+a {
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
 
 .page-link {
     color: #4d5ae5;
@@ -20,6 +44,7 @@ ul {list-style-type: none;}
     font-family: Raleway , sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: flex;
 }
 
 .logo-accent{
@@ -36,11 +61,16 @@ ul {list-style-type: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .menu-nav-link:hover,
 .menu-nav-link:focus {
     color: #404BBF;
+}
+
+.menu-nav {
+    display: flex;
 }
 
 .address-one{
@@ -52,6 +82,7 @@ ul {list-style-type: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
 }
 
 .address-one-link:hover,
@@ -61,6 +92,8 @@ ul {list-style-type: none;}
 
 .hero-image {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .hero-image-text {
@@ -70,6 +103,8 @@ ul {list-style-type: none;}
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .main-button {
@@ -81,6 +116,10 @@ ul {list-style-type: none;}
     line-height: 1.5;
     cursor: pointer;
     letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
 }
 
 .main-button:hover,
@@ -94,6 +133,7 @@ ul {list-style-type: none;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .sections-title {
@@ -117,6 +157,7 @@ ul {list-style-type: none;}
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 264px;
 }
 
 .section-1 .sections-title {
@@ -142,3 +183,16 @@ ul {list-style-type: none;}
     text-align: left;
     letter-spacing: 0.02em;
 }
+
+.header-1 {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.section-1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+
