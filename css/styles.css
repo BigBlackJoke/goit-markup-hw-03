@@ -143,7 +143,7 @@ ul {list-style-type: none;
     text-align: center;
 }
 
-.section-3-paragraph-title {
+.section-three-paragraph-title {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -179,11 +179,13 @@ ul {list-style-type: none;
     padding-bottom: 32px;
 }
 
-.section-3 .sections-paragraph-center {
+.product {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .sections-paragraph {
@@ -221,12 +223,12 @@ ul {list-style-type: none;
     padding-bottom: 120px;
 }
 
-.section-3 {
+.section-three {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.section-3-list {
+.section-three-list {
     background-color: #FFFFFF;
     max-width: 360px;
     max-height: 420px;
@@ -276,4 +278,11 @@ ul {list-style-type: none;
 
 .person-and-job {
     padding: 32px 0;
+}
+
+.section-three-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
