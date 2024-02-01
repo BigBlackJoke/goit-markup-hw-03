@@ -5,6 +5,7 @@ body {
     font-family: Roboto , sans-serif;
     background-color: #ffffff;
     
+    
 }
 
 p,
@@ -30,10 +31,10 @@ ul {list-style-type: none;
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    width: 100%;
+    margin: 0 auto;
 }
 
 .page-link {
@@ -44,7 +45,6 @@ ul {list-style-type: none;
     font-family: Raleway , sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    display: flex;
 }
 
 .logo-accent{
@@ -61,16 +61,11 @@ ul {list-style-type: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
 }
 
 .menu-nav-link:hover,
 .menu-nav-link:focus {
     color: #404BBF;
-}
-
-.menu-nav {
-    display: flex;
 }
 
 .address-one{
@@ -82,7 +77,6 @@ ul {list-style-type: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
 }
 
 .address-one-link:hover,
@@ -120,6 +114,7 @@ ul {list-style-type: none;
     height: 56px;
     border-radius: 4px;
     border: none;
+    margin-top: 48px;
 }
 
 .main-button:hover,
@@ -134,6 +129,18 @@ ul {list-style-type: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.section-3-paragraph-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 32px;
 }
 
 .sections-title {
@@ -144,20 +151,35 @@ ul {list-style-type: none;
     text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 
-.sections-paragraph-center {
+.section-one-paragraph-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-two .sections-paragraph-center {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 32px;
+}
+
+.section-3 .sections-paragraph-center {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 
 .sections-paragraph {
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        max-width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .section-1 .sections-title {
@@ -166,10 +188,14 @@ ul {list-style-type: none;
 
 .section-two {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-two-list-box {
     background-color: #FFFFFF;
+    max-width: 264px;
+    max-height: 380px;
 }
 
 .page-footer {
@@ -194,5 +220,25 @@ ul {list-style-type: none;
     padding-bottom: 120px;
 }
 
+.section-3 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-3-list {
+    background-color: #FFFFFF;
+    max-width: 360px;
+    max-height: 420px;
+}
+
+.page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-paragraph {
+    max-width: 264px;
+    margin-top: 16px;
+}
 
 
