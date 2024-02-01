@@ -30,6 +30,10 @@ ul {list-style-type: none;
     margin-bottom: 0;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 
 .page-link {
     color: #4d5ae5;
@@ -57,11 +61,7 @@ ul {list-style-type: none;
 
 .address-list {
     display: flex;
-}
-
-
-.navigation {
-    display: flex;
+    gap: 40px;
 }
 
 .menu-nav-link {
@@ -70,6 +70,8 @@ ul {list-style-type: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-nav-link:hover,
@@ -218,12 +220,6 @@ ul {list-style-type: none;
     text-align: left;
     letter-spacing: 0.02em;
 }
-
-.header-1 {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-}
-
 .section-1 {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -255,6 +251,10 @@ ul {list-style-type: none;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
 }
 
-
+.navigation {
+    display: flex;
+    align-items: center;
+}
