@@ -140,7 +140,6 @@ ul {list-style-type: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
     text-align: center;
 }
 
@@ -169,11 +168,10 @@ ul {list-style-type: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 
-.section-two .sections-paragraph-center {
+.sections-paragraph-center { 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -264,4 +262,18 @@ ul {list-style-type: none;
 .section-one-list {
     display: flex;
     gap: 24px;
+}
+
+.section-two-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-list-box {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+
+.person-and-job {
+    padding: 32px 0;
 }
