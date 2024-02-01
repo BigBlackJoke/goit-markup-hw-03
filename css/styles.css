@@ -30,12 +30,6 @@ ul {list-style-type: none;
     margin-bottom: 0;
 }
 
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 
 .page-link {
     color: #4d5ae5;
@@ -45,6 +39,7 @@ ul {list-style-type: none;
     font-family: Raleway , sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 .logo-accent{
@@ -53,6 +48,20 @@ ul {list-style-type: none;
 
 .down-logo-accent {
     color: #F4F4FD;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 40px; 
+}
+
+.address-list {
+    display: flex;
+}
+
+
+.navigation {
+    display: flex;
 }
 
 .menu-nav-link {
@@ -239,6 +248,13 @@ ul {list-style-type: none;
 .footer-paragraph {
     max-width: 264px;
     margin-top: 16px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 
