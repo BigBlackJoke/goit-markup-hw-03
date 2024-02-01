@@ -169,6 +169,8 @@ ul {list-style-type: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
 
 .section-two .sections-paragraph-center {
@@ -191,10 +193,6 @@ ul {list-style-type: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-
-.section-one .sections-title {
-    color: #ffffff;
 }
 
 .section-two {
@@ -259,6 +257,11 @@ ul {list-style-type: none;
     align-items: center;
 }
 
-.section-one .sections-title {
-    overflow: hidden;
+.visually-hidden {
+    display: none;
+}
+
+.section-one-list {
+    display: flex;
+    gap: 24px;
 }
