@@ -8,6 +8,10 @@ body {
     
 }
 
+img {
+    display: block;
+}
+
 p,
 h1,
 h2,
@@ -28,6 +32,7 @@ a {
 ul {list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
 }
 
 .header {
@@ -44,8 +49,7 @@ ul {list-style-type: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
+    display: block;
 }
 
 .logo-accent{
@@ -64,6 +68,7 @@ ul {list-style-type: none;
 .address-list {
     display: flex;
     gap: 40px;
+    margin-left: auto;
 }
 
 .menu-nav-link {
@@ -74,6 +79,7 @@ ul {list-style-type: none;
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .menu-nav-link:hover,
@@ -83,6 +89,7 @@ ul {list-style-type: none;
 
 .address-one{
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-one-link {
@@ -127,6 +134,8 @@ ul {list-style-type: none;
     height: 56px;
     border-radius: 4px;
     border: none;
+    display: block;
+    margin: 0 auto;
     margin-top: 48px;
 }
 
@@ -152,7 +161,6 @@ ul {list-style-type: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
 
 .sections-title {
@@ -178,7 +186,6 @@ ul {list-style-type: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
 }
 
 .product {
@@ -232,8 +239,6 @@ ul {list-style-type: none;
 
 .section-three-list {
     background-color: #FFFFFF;
-    max-width: 360px;
-    max-height: 420px;
 }
 
 .page-footer {
@@ -251,16 +256,24 @@ ul {list-style-type: none;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    display: flex;
 }
 
 .navigation {
-    display: flex;
+    display: block;
     align-items: center;
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-one-list {
@@ -287,4 +300,27 @@ ul {list-style-type: none;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.section-one-list-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.section-three-list-li {
+    width: calc((100% - 48px) / 3);
+}
+
+.section-three-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.page-link-footer {
+    margin-right: 0;
 }
