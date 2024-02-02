@@ -259,7 +259,7 @@ ul {list-style-type: none;
 }
 
 .navigation {
-    display: block;
+    display: flex;
     align-items: center;
 }
 
@@ -323,4 +323,6 @@ ul {list-style-type: none;
 
 .page-link-footer {
     margin-right: 0;
+    margin-bottom: 16px;
+    display: inline-block;
 }
