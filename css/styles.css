@@ -49,7 +49,7 @@ ul {list-style-type: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    display: block;
+    display: flex;
 }
 
 .logo-accent{
@@ -325,4 +325,13 @@ ul {list-style-type: none;
     margin-right: 0;
     margin-bottom: 16px;
     display: inline-block;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.address-list-li {
+    display: flex;
 }
